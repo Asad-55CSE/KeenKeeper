@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; font-family: 'Plus Jakarta Sans', sans-serif; }
+  body { @apply bg-gray-50 text-gray-800 antialiased; }
+}
+
+@layer components {
+  .btn-forest {
+    @apply bg-[#2D4A3E] hover:bg-[#1f3d2e] text-white font-semibold px-5 py-2 rounded-lg
+           transition-all duration-200 inline-flex items-center gap-2;
+  }
+  .status-overdue    { @apply bg-red-500 text-white text-xs font-semibold px-3 py-0.5 rounded-full; }
+  .status-almost     { @apply bg-orange-400 text-white text-xs font-semibold px-3 py-0.5 rounded-full; }
+  .status-ontrack    { @apply bg-[#2D4A3E] text-white text-xs font-semibold px-3 py-0.5 rounded-full; }
+  .tag-pill          { @apply bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-0.5 rounded-full uppercase tracking-wide; }
+}
+
+/* Toastify overrides */
+.Toastify__toast { font-family: 'Plus Jakarta Sans', sans-serif !important; border-radius: 10px !important; font-size: 14px !important; }
+.Toastify__toast--success { background: #f0fdf4 !important; color: #166534 !important; border: 1px solid #bbf7d0 !important; }
+.Toastify__toast--error   { background: #fef2f2 !important; color: #991b1b !important; border: 1px solid #fecaca !important; }
+.Toastify__toast--info    { background: #f0fdf4 !important; color: #1f3d2e !important; border: 1px solid #bbf7d0 !important; }
+.Toastify__progress-bar--success { background: #2D4A3E !important; }
+.Toastify__progress-bar--info    { background: #2D4A3E !important; }
