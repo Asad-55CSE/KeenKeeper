@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "sarah.chen@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in sophomore year. We bonded over late-night study sessions and bad campus coffee.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  },
+  {
+    "id": 2,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "marcus.j@outlook.com",
+    "days_since_contact": 21,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "Former manager who believed in me before I believed in myself. Now a lifelong friend.",
+    "goal": 21,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 3,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "aisha.patel@proton.me",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["childhood", "family friend"],
+    "bio": "Grew up two houses apart. She was my first best friend and still the most honest one.",
+    "goal": 30,
+    "next_due_date": "2026-03-17"
+  },
+  {
+    "id": 4,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "tombaker@hey.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["hobby", "running"],
+    "bio": "Training partner for three marathons. He pushes me harder than any coach ever has.",
+    "goal": 14,
+    "next_due_date": "2026-04-24"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "olivia.m@gmail.com",
+    "days_since_contact": 60,
+    "status": "overdue",
+    "tags": ["travel", "adventure"],
+    "bio": "Met backpacking through Portugal. We promised to visit every country in Europe together.",
+    "goal": 30,
+    "next_due_date": "2026-02-16"
+  },
+  {
+    "id": 6,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "ryan.obrien@icloud.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "tech"],
+    "bio": "Co-founder of my first startup attempt. We failed spectacularly but remained best friends.",
+    "goal": 21,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 7,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "lisa.nakamura@fastmail.com",
+    "days_since_contact": 52,
+    "status": "overdue",
+    "tags": ["family", "cousin"],
+    "bio": "My cousin who moved to Tokyo. We grew up inseparable and still talk like no time has passed.",
+    "goal": 21,
+    "next_due_date": "2026-02-24"
+  },
+  {
+    "id": 8,
+    "name": "Daniel Park",
+    "picture": "https://randomuser.me/api/portraits/men/91.jpg",
+    "email": "daniel.park@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["college", "roommate"],
+    "bio": "My college roommate for three years. He can cook anything and fixes everything I break.",
+    "goal": 14,
+    "next_due_date": "2026-04-29"
+  }
+]
